@@ -1,0 +1,424 @@
+/* Global Styles */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8d7ced94;
+    display: inline-block;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section {
+    padding: 50px 0;
+    text-align: left;
+    
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #4b5e81;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 1.5rem;
+    float: left;
+}
+
+.nav-links {
+    list-style: none;
+    text-align: right;
+    padding: 3px 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #4b5e81;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+/* Home Section Styles */
+#home {
+     background-image: url('images/backg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    height: 670px;
+}
+
+#home h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#home .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ee6969; /* Adjust the background color as needed */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+#home .btn:hover {
+    background-color: #e6623b; /* Adjust the hover background color as needed */
+}
+
+#home .testimonial {
+    background-color: rgba(11, 11, 11, 0.8);
+    padding: 45px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+#home .testimonial h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#home .testimonial p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+/* Section Styles */
+/* About Section Styles */
+/* About Section Styles */
+#about {
+    width: 850px;
+    height: 670px;   
+    padding: 0px 500px 1px 1px;
+    background-color: #8d7ced94;
+}
+.image{
+    background-repeat: no-repeat;
+    border: 2px solid palevioletred;
+    background-size: cover;
+    position: absolute;
+}
+#work{
+    width:350px;
+    height:  250px;
+    left: 874px;
+    bottom: 0px;
+    top: 1030px;
+}
+#work1{
+    width:350px;
+    height:  270px;
+    position: relative;
+    left: 846px;
+    bottom: 226px;
+}
+
+
+#about .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+#about .container1{
+    margin-top: 0px;
+    position: absolute;
+}
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#about p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+#about .benefits {
+    margin-top: 50px;
+}
+
+#about .benefits h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#about .benefits ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#about .benefits ul li {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+/* Services Section Styles */
+#services {
+    width: 850px;
+    height: 1300px; 
+    padding: 0px 500px 1px 1px;
+}
+#graphics{
+  margin-left: 700px;
+}
+
+#services .container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    text-align: end;
+}
+
+.service {
+    margin-bottom: 40px;
+    /* border: 3px solid black; */
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 500px;
+}
+
+.service h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    
+}
+
+.service p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+#web1{
+    width:561px;
+    height: 358px;
+    margin-left: 204px;
+}
+#grapic{
+    width:561px;
+    height: 358px;
+}
+#marketing{
+    width:561px;
+    height: 358px;
+    margin-left: 204px;
+
+}
+/* Testimonials Section Styles */
+#testimonials {
+    padding: 10px 500px 1px 1px;
+    box-sizing: border-box;
+    height: 900px;
+    background-color: #8d7ced94;
+}
+#testimonials .container {
+    max-width: 800px;
+    margin: 0 auto;
+   
+}
+
+#testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    text-align: end;
+}
+
+.testimonial {
+    margin-bottom: 40px;
+    border: 5px solid black;
+    padding: 15px 15px 15px 20px;
+    width: 1254px;
+}
+
+.testimonial p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.testimonial p:last-child {
+    margin-bottom: 0;
+}
+
+/* Team Section Styles */
+/* Team Section Styles */
+#team {
+    padding: 1px 50px 1px 1px;
+}
+
+#team .container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#team h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.members {
+    display: flex;
+    justify-content: space-between; /* Distribute members evenly across the container */
+}
+
+.member {
+    flex: 0 1 calc(33.333% - 20px); /* Adjust width for three members with spacing */
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.member img {
+    border-radius: 23%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.member h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+   
+}
+
+.member p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Gallery Section Styles */
+#gallery {
+    padding:  10px 100px 0 90px;
+    background-color: #8d7ced94;
+    
+}
+
+#gallery .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#gallery h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.gallery-item {
+    margin-bottom: 40px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item p {
+    font-size: 1.6rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Contact Section Styles */
+#contact {
+    padding:  10px 100px 0 90px;
+}
+
+#contact .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+form input,
+form textarea {
+    width: 87%;
+    padding: 8px;
+    margin-bottom: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+form textarea {
+    height: 150px;
+    width: 680px;
+}
+
+form button {
+    background-color: #ee6969;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #e6623b;
+}
+
+.contact-info {
+    margin-top: 50px;
+}
+
+.contact-info h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+@media screen and (max-width:1300){
+    body{
+        width: 100%;
+        height: 100%;
+    }
+}
